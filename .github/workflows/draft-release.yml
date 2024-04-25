@@ -7,8 +7,9 @@
 name: Draft Release
 
 on: 
-  milestone:
-    types: [closed]
+  push:
+    branches:
+      - master
 
 jobs:
   release:
